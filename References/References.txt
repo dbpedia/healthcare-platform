@@ -1,0 +1,12 @@
+# References
+
+https://www.w3.org/
+http://linkeddata.org/
+http://www.cambridgesemantics.com/semantic-university/sparql-by-example
+https://docs.marklogic.com/guide/semantics.pdf
+https://ontotext.com/knowledgehub
+https://github.com/JoshData/rdfabout/blob/gh-pages/intro-to-rdf.md
+http://lod-cloud.net/
+https://www.w3.org/2009/Talks/0615-qbe/
+https://www.slideshare.net/LeeFeigenbaum/sparql-cheat-sheet
+http://semanticweb.org/wiki/Ontology.html
