@@ -10,3 +10,9 @@ http://lod-cloud.net/
 https://www.w3.org/2009/Talks/0615-qbe/
 https://www.slideshare.net/LeeFeigenbaum/sparql-cheat-sheet
 http://semanticweb.org/wiki/Ontology.html
+
+https://github.com/Wimmics/CovidOnTheWeb
+https://github.com/guang-zh/covidAsk
+
+https://covidgraph.com/
+https://covidask.korea.ac.kr/
