@@ -16,3 +16,6 @@ https://github.com/guang-zh/covidAsk
 
 https://covidgraph.com/
 https://covidask.korea.ac.kr/
+
+# Tutorial for converting from PDF to JSON
+https://rml.io/docs/rml/tutorials/json/
