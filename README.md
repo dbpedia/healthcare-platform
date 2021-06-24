@@ -21,3 +21,8 @@ https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge
 - [SPARQL wikidata](https://www.wikidata.org/wiki/Wikidata:SPARQL_tutorial)
 - [SPARQL w3](https://www.w3.org/TR/sparql11-query/)
 
+## Tasks to do:
+- Search for RDF and CSV datasets on COVID and Healthcare
+- Datahubs: [zenodo](https://zenodo.org/) and [datahub](https://datahub.io/)
+- Update mappings for current COVID and Healthcare resources (i.e. COVID and COVID-Symptoms)
+- Learn different dbpedia types (i.e. dbo, dbp, dbr, dbo, dbt, dbc)
