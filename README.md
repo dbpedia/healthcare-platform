@@ -26,3 +26,8 @@ https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge
 - Datahubs: [zenodo](https://zenodo.org/) and [datahub](https://datahub.io/)
 - Update mappings for current COVID and Healthcare resources (i.e. COVID and COVID-Symptoms)
 - Learn different dbpedia types (i.e. dbo, dbp, dbr, dbo, dbt, dbc)
+
+## Potential datasets:
+- [COVID Mapping](https://coronavirus.jhu.edu/map.html)
+- [COVID Worldometer](https://www.worldometers.info/coronavirus/)
+- [COVID 19 dataset by date](https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset?select=covid_19_data.csv)
