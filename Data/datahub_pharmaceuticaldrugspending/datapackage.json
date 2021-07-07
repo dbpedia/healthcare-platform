@@ -1,0 +1,335 @@
+{
+  "bytes": 225231,
+  "datahub": {
+    "created": "2017-11-08T21:45:11.459339",
+    "findability": "published",
+    "flowid": "core/pharmaceutical-drug-spending/19",
+    "modified": "2018-03-15T06:38:27.278062",
+    "owner": "core",
+    "ownerid": "core"
+  },
+  "hash": "6ac70f2804005583e67597d692ab69e1",
+  "id": "core/pharmaceutical-drug-spending",
+  "licenses": [
+    {
+      "name": "odc-pddl",
+      "path": "http://opendatacommons.org/licenses/pddl/",
+      "title": "Open Data Commons Public Domain Dedication and Licence (PDDL)"
+    }
+  ],
+  "name": "pharmaceutical-drug-spending",
+  "resources": [
+    {
+      "bytes": 40607,
+      "datahub": {
+        "type": "original"
+      },
+      "dpp:streamedFrom": "https://s3.amazonaws.com/rawstore.datahub.io/cf2736ffe06a9fcfc9f1e85cd111ad75.csv",
+      "encoding": "utf-8",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "name": "data_original",
+      "path": "archive/data.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "description": "Country code",
+            "format": "default",
+            "name": "LOCATION",
+            "type": "string"
+          },
+          {
+            "description": "Date in the form of %Y",
+            "format": "default",
+            "name": "TIME",
+            "type": "year"
+          },
+          {
+            "description": "% of Health spending",
+            "format": "default",
+            "name": "PC_HEALTHXP",
+            "type": "number"
+          },
+          {
+            "description": "% of GDP",
+            "format": "default",
+            "name": "PC_GDP",
+            "type": "number"
+          },
+          {
+            "description": "in USD per capita (using economy-wide PPPs)",
+            "format": "default",
+            "name": "USD_CAP",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "FLAG_CODES",
+            "type": "string"
+          },
+          {
+            "description": "Total spending in millions",
+            "format": "default",
+            "name": "TOTAL_SPEND",
+            "type": "number"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "bytes": 629,
+      "datahub": {
+        "type": "derived/report"
+      },
+      "description": "Validation report for tabular data",
+      "dpp:streamedFrom": "/tmp/tmpkufms7mg/core/pharmaceutical-drug-spending/validation_report/data/1e8e46a282933877d3c569136e0d958d/validation_report.json",
+      "encoding": "utf-8",
+      "format": "json",
+      "hash": "1e8e46a282933877d3c569136e0d958d",
+      "name": "validation_report",
+      "path": "data/validation_report.json",
+      "profile": "data-resource"
+    },
+    {
+      "bytes": 40609,
+      "datahub": {
+        "derivedFrom": [
+          "data"
+        ],
+        "type": "derived/csv"
+      },
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "dpp:streamedFrom": "/tmp/tmpkufms7mg/core/pharmaceutical-drug-spending/data_csv/data/db46fb3c420e7100e1d2b1f973e2cbcd/data_csv.csv",
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "db46fb3c420e7100e1d2b1f973e2cbcd",
+      "mediatype": "text/csv",
+      "name": "data_csv",
+      "path": "data/data_csv.csv",
+      "profile": "tabular-data-resource",
+      "rowcount": 1036,
+      "schema": {
+        "fields": [
+          {
+            "description": "Country code",
+            "format": "default",
+            "name": "LOCATION",
+            "type": "string"
+          },
+          {
+            "description": "Date in the form of %Y",
+            "format": "default",
+            "name": "TIME",
+            "type": "year"
+          },
+          {
+            "decimalChar": ".",
+            "description": "% of Health spending",
+            "format": "default",
+            "groupChar": "",
+            "name": "PC_HEALTHXP",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "description": "% of GDP",
+            "format": "default",
+            "groupChar": "",
+            "name": "PC_GDP",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "description": "in USD per capita (using economy-wide PPPs)",
+            "format": "default",
+            "groupChar": "",
+            "name": "USD_CAP",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "FLAG_CODES",
+            "type": "string"
+          },
+          {
+            "decimalChar": ".",
+            "description": "Total spending in millions",
+            "format": "default",
+            "groupChar": "",
+            "name": "TOTAL_SPEND",
+            "type": "number"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "signed": true
+    },
+    {
+      "bytes": 141953,
+      "datahub": {
+        "derivedFrom": [
+          "data"
+        ],
+        "type": "derived/json"
+      },
+      "dpp:streamedFrom": "/tmp/tmpkufms7mg/core/pharmaceutical-drug-spending/data_json/data/d0a114c2192142424c8dcd71ae7eba44/data_json.json",
+      "encoding": "utf-8",
+      "format": "json",
+      "hash": "d0a114c2192142424c8dcd71ae7eba44",
+      "mediatype": "text/csv",
+      "name": "data_json",
+      "path": "data/data_json.json",
+      "profile": "tabular-data-resource",
+      "rowcount": 1036,
+      "schema": {
+        "fields": [
+          {
+            "description": "Country code",
+            "format": "default",
+            "name": "LOCATION",
+            "type": "string"
+          },
+          {
+            "description": "Date in the form of %Y",
+            "format": "default",
+            "name": "TIME",
+            "type": "year"
+          },
+          {
+            "description": "% of Health spending",
+            "format": "default",
+            "name": "PC_HEALTHXP",
+            "type": "number"
+          },
+          {
+            "description": "% of GDP",
+            "format": "default",
+            "name": "PC_GDP",
+            "type": "number"
+          },
+          {
+            "description": "in USD per capita (using economy-wide PPPs)",
+            "format": "default",
+            "name": "USD_CAP",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "FLAG_CODES",
+            "type": "string"
+          },
+          {
+            "description": "Total spending in millions",
+            "format": "default",
+            "name": "TOTAL_SPEND",
+            "type": "number"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "signed": true
+    },
+    {
+      "bytes": 1433,
+      "dpp:streamedFrom": "/tmp/tmpoycs3yfr/README.md",
+      "format": "md",
+      "name": "readme",
+      "path": "README.md"
+    }
+  ],
+  "sources": [
+    {
+      "path": "https://stats.oecd.org/sdmx-json/data/DP_LIVE/.PHARMAEXP.../OECD?contentType=csv&detail=code&separator=comma&csv-lang=en",
+      "title": "Pharmaceutical Drug Spending from Organisation for Economic Cooperation and Development"
+    }
+  ],
+  "title": "Pharmaceutical Drug Spending by countries",
+  "views": [
+    {
+      "name": "total-spending-by-country-2015",
+      "resources": [
+        {
+          "name": "data",
+          "transform": [
+            {
+              "expression": "parseInt(data['TIME']) === 2015",
+              "type": "filter"
+            }
+          ]
+        }
+      ],
+      "spec": {
+        "group": "LOCATION",
+        "series": [
+          "TOTAL_SPEND"
+        ],
+        "type": "bar"
+      },
+      "specType": "simple",
+      "title": "Total spending by country 2015 (in millions of dollars)"
+    },
+    {
+      "name": "spending-per-capita-2015",
+      "resources": [
+        {
+          "name": "data",
+          "transform": [
+            {
+              "expression": "parseInt(data['TIME']) === 2015",
+              "type": "filter"
+            }
+          ]
+        }
+      ],
+      "spec": {
+        "group": "LOCATION",
+        "series": [
+          "USD_CAP"
+        ],
+        "type": "bar"
+      },
+      "specType": "simple",
+      "title": "Spending per capita in 2015"
+    },
+    {
+      "name": "percentage-of-gdp-in-the-usa",
+      "resources": [
+        {
+          "name": "data",
+          "transform": [
+            {
+              "expression": "data['LOCATION'] === 'USA'",
+              "type": "filter"
+            }
+          ]
+        }
+      ],
+      "spec": {
+        "group": "TIME",
+        "series": [
+          "PC_GDP"
+        ],
+        "type": "line",
+        "yTitle": "Percent of GDP"
+      },
+      "specType": "simple",
+      "title": "Pharmaceutical drug spending in the United States (in percentage of GDP)"
+    }
+  ]
+}
