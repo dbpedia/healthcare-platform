@@ -7,8 +7,8 @@ Repository for the GSoC 2021 project 'Update DBpedia SPARQL for Wiki Resources R
 ## Proposal
 [Proposal for Healthcare Platform](https://docs.google.com/document/d/1kGc_-2c9FV_pjw5Y0rD3VW8jecGz4Q5MlsqZKiIYpZ8/edit#)
 
-## Dataset
-https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge
+## COVID Mapping
+https://drive.google.com/file/d/148L6tIGYblEgEZtLZ-LThCvaYY_jla29/view?usp=sharing
 
 ## DBpedia Resources
 - [DBpedia Web](https://www.dbpedia.org/)
