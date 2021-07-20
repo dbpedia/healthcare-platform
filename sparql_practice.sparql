@@ -1,0 +1,29 @@
+# Practice with dbo: CelestialBody
+PREFIX dbpedia2: <http://dbpedia.org/property/>
+PREFIX dbpediaO: <http://dbpedia.org/ontology>
+SELECT ?body ?magnitude WHERE {
+  ?body a dbpediaO:CelestialBody .
+  ?body dbpedia2:appmagV ?magnitude .
+  Filter (?magnitude < 6)
+} LIMIT 10
+
+# Practice with rdfs for covid and virus (not working)
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT * WHERE {
+  ?covid ?a ?virus
+} LIMIT 10
+
+# Practice with dbo: Disease (not working)
+PREFIX dbpedia2: <http://dbpedia.org/property/>
+PREFIX dbpediaO: <http://dbpedia.org/ontology>
+SELECT ?abbreviation ?symptom WHERE {
+  ?abbreviation a dbpediaO:Disease .
+  ?symptom dbpedia2:Symptom ?symptom .
+} LIMIT 10
+
+
+https://live.dbpedia.org/sparql
+
+Search DBpedia Mapping en
+not found, then add mapping with template from main page

@@ -10,7 +10,7 @@ CONSTRUCT {
 }
 FROM <file:D:/DBpedia2021/healthcare-platform/Data/kaggle_covidworldvaccinationprogress/country_vaccinations_by_manufacturer.csv>
 WHERE {
-  BIND (URI(CONCAT('http://dbpedia.org/resource/',?location)) AS ?s)
+  BIND (URI(CONCAT('http://dbpedia.org/resource/',?location,?vaccine)) AS ?s)
   BIND (xsd:date(?date) AS ?d)
   BIND (xsd:string(?vaccine) as ?v)
   BIND (xsd:integer(?total_vaccinations) as ?t)
