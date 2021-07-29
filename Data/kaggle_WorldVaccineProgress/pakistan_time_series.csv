@@ -1,35 +1,3 @@
-Doses Administered,Doses per 1000,Fully Vaccinated Population (%),Vaccine being used in a country,Date_Time
-7953574,38.0,1.1,"CanSino, Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",2021-06-07 08:00:00
-8263763,38.9,1.1,"CanSino, Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",2021-06-14 07:45:07
-10696402,50.4,1.4,"CanSino, Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",2021-06-15 14:53:20
-11085787,52.2,1.4,"CanSino, Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",2021-06-16 14:19:06
-11745889,55.3,1.5,"CanSino, Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",2021-06-17 17:33:33
-12065211,56.9,1.5,"CanSino, Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",2021-06-18 14:30:57
-12750760,60.1,1.6,"CanSino, Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",2021-06-20 14:31:02
-12750760,60.1,1.6,"CanSino, Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",2021-06-21 14:48:39
-12750760,60.1,1.6,"CanSino, Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",2021-06-22 14:30:51
-12977740,61.2,1.6,"CanSino, Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",2021-06-23 14:30:57
-12977740,61.2,1.6,"CanSino, Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",2021-06-24 09:19:21
-13484364,63.5,1.7,"CanSino, Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",2021-06-24 14:30:48
-13484364,63.5,1.7,"CanSino, Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",2021-06-25 14:31:14
-13484364,63.5,1.7,"CanSino, Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",2021-06-26 14:31:46
-13484364,63.5,1.7,"CanSino, Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",2021-06-27 14:30:58
-13484364,63.5,1.7,"CanSino, Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",2021-06-28 14:31:08
-13484364,63.5,1.7,"CanSino, Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",2021-06-30 14:31:11
-13484364,63.5,1.7,"CanSino, Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",2021-07-02 05:59:42
-16356499,77.1,1.5,"CanSino, Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",2021-07-02 14:31:12
-16714717,78.8,1.5,"CanSino, Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",2021-07-04 14:30:44
-17390346,81.9,1.6,"CanSino, Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",2021-07-06 14:30:49
-17390346,81.9,1.6,"CanSino, Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",2021-07-07 14:31:07
-17390346,81.9,1.6,"CanSino, Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",2021-07-08 14:31:09
-18228235,85.9,1.7,"CanSino, Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",2021-07-09 14:30:47
-18228235,85.9,1.7,"CanSino, Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",2021-07-10 14:31:05
-19067352,89.8,1.8,"CanSino, Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",2021-07-11 14:30:46
-19883900,93.7,1.9,"CanSino, Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",2021-07-13 14:31:18
-19883900,93.7,1.9,"CanSino, Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",2021-07-14 14:32:01
-20540263,96.8,1.9,"CanSino, Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",2021-07-15 14:30:57
-21076550,99.3,2.0,"CanSino, Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",2021-07-16 14:31:07
-22222701,104.7,2.1,"CanSino, Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",2021-07-17 14:30:44
-22735993,107.1,2.1,"CanSino, Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",2021-07-19 14:31:22
-22735993,107.1,2.1,"CanSino, Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",2021-07-20 14:33:00
-22735993,107.1,2.1,"CanSino, Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",2021-07-21 14:30:58
+version https://git-lfs.github.com/spec/v1
+oid sha256:4e98c7568041bc96e4db3676e7ad2d6b56644656a9c085877bdaf62d1c04b5ba
+size 3748
