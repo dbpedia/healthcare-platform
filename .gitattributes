@@ -3,3 +3,4 @@
 Data/ filter=lfs diff=lfs merge=lfs -text
 *.nt filter=lfs diff=lfs merge=lfs -text
 *.csv.bz2 filter=lfs diff=lfs merge=lfs -text
+*.nt.bz2 filter=lfs diff=lfs merge=lfs -text
