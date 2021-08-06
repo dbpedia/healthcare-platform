@@ -4,19 +4,19 @@ PREFIX ex:  <http://health.example.org/property#>
 
 CONSTRUCT {
   ?s a dbo:VaccinationStatistics;
-    ex:country ?c;
-    ex:isoCode ?i;
-    ex:date ?d;
-    ex:totalVaccinations ?tv;
-    ex:peopleVaccinated ?pv;
-    ex:peopleFullyVaccinated ?pfv;
-    ex:dailyVaccinationsRaw ?dvr;
-    ex:totalVaccinationsPerHundred ?tvh;
-    ex:peopleVaccinatedPerHundred ?pvh;
-    ex:dailyVaccinationsPerMillion ?dvm;
-    ex:vaccine ?v;
-    ex:sourceName ?sn;
-    ex:sourceWebsite ?sw;
+    dbo:country ?c;
+    dbo:isoCode ?i;
+    dbo:date ?d;
+    dbo:totalVaccinations ?tv;
+    dbo:peopleVaccinated ?pv;
+    dbo:peopleFullyVaccinated ?pfv;
+    dbo:dailyVaccinationsRaw ?dvr;
+    dbo:totalVac N;cinationsPerHundred ?tvh;
+    dbo:peopleVaccinatedPerHundred ?pvh;
+    dbo:dailyVaccinationsPerMillion ?dvm;
+    dbo:vaccine ?v;
+    dbo:sourceName ?sn;
+    dbo:sourceWebsite ?sw;
 }
 WHERE {
   BIND (URI(CONCAT('http://dbpedia.org/resource/',?country,'/CovidVaccinationStatistics/', ?date)) AS ?s)
