@@ -11,7 +11,7 @@ CONSTRUCT {
     dbo:peopleVaccinated ?pv;
     dbo:peopleFullyVaccinated ?pfv;
     dbo:dailyVaccinationsRaw ?dvr;
-    dbo:totalVac N;cinationsPerHundred ?tvh;
+    dbo:totalVaccinationsPerHundred ?tvh;
     dbo:peopleVaccinatedPerHundred ?pvh;
     dbo:dailyVaccinationsPerMillion ?dvm;
     dbo:vaccine ?v;
