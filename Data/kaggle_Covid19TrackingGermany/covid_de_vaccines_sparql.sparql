@@ -1,0 +1,28 @@
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX ex:  <http://health.example.org/property#>
+
+CONSTRUCT {
+  ?s a dbo:Vaccine;
+    dbo:date ?d;
+    ex:doses ?doses;
+    ex:dosesFirst ?dosesF;
+    ex:dosesSecond ?dosesS;
+    ex:pfizerCumul ?pfizerC;
+    ex:modernaCumul ?modernaC;
+    ex:astrazenecaCumul ?astrazenecaC;
+    ex:personsFirstCumul ?pFC;
+    ex:personsFullCumul ?pFullC;
+}
+WHERE {
+  BIND (URI(CONCAT('http://dbpedia.org/resource/Germany','/CovidVaccinationStatistics/', ?date)) AS ?s)
+  BIND (xsd:date(?date) AS ?d)
+  BIND (xsd:integer(?doses) as ?doses)
+  BIND (xsd:integer(?doses_first) as ?dosesF)
+  BIND (xsd:integer(?doses_second) as ?dosesS)
+  BIND (xsd:integer(?pfizer_cumul) as ?pfizerC)
+  BIND (xsd:integer(?moderna_cumul) as ?modernaC)
+  BIND (xsd:integer(?astrazeneca_cumul) as ?astrazenecaC)
+  BIND (xsd:integer(?persons_first_cumul) as ?pFC)
+  BIND (xsd:integer(?persons_full_cumul) as ?pFullC)
+}
