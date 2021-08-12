@@ -1,0 +1,22 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix cert: <http://www.w3.org/ns/auth/cert#> .
+@prefix rdfs: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<> a foaf:PersonalProfileDocument ;
+   foaf:maker <#this> ;
+   foaf:primaryTopic <#this> .
+
+<#this> a foaf:Agent ;
+   foaf:name "Guang Zhang";
+   foaf:img <https://raw.githubusercontent.com/Vehnem/vehnem.github.io/master/marvin.png>;
+   foaf:status "Image adopted from https://www.flickr.com/photos/u2canreed/2555740379";
+cert:key [
+      a cert:RSAPublicKey;
+      rdfs:label "certLabel";
+      cert:modulus "B16196A3AE850E7422213CBD3D7B991784179E5DA2E20AAB3EAAD8A9660A64592D51CAD335D7253558F90FF10EDF9184E42BE0BEA0FE1FD4FC602A7931162BDB46D57CCDB580F5D9B3DEA7E6744C48F6C70088B82C66D9F31135FD804BED66B9171A7E171B151A39704A65B1DE378CAD7B98F42EE4BF764817F72D94580594DB9CA3986CB227A28755C26E18BD3C901BA6F470B7A0CBE38D63B5FA66A95F1D09776EF963991BD02FE249BA3F5391AA69878681CFA216BA69988707320D15E274CE6C4AA9AB1FC7B1D139D5B84007AD66955E75BED995B7F83EC9FB9BD5D409A078F9DD7B6B3AEA565F32A30FB382E0AFC2D6999F4E0F97A591B4222505163169"^^xsd:hexBinary;
+      cert:exponent "65537"^^xsd:nonNegativeInteger
+     ] .
+
+
