@@ -11,5 +11,9 @@ pwd
 ../../tarql/bin/tarql --ntriples covid_de_vaccines_sparql.sparql covid_de_vaccines.csv > covid_de_vaccines_triples.nt
 ../../tarql/bin/tarql --ntriples covid_de_sparql.sparql covid_de.csv > covid_de_triples.nt
 
+
+bin/tarql --ntriples covid_de_vaccines_sparql.sparql covid_de_vaccines.csv > covid_de_vaccines_triples.nt
+
+
 # compress files with bzip2
 bzip2 country_vaccinations.csv
