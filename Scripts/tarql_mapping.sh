@@ -17,3 +17,11 @@ bin/tarql --ntriples covid_de_vaccines_sparql.sparql covid_de_vaccines.csv > cov
 
 # compress files with bzip2
 bzip2 country_vaccinations.csv
+# decompress files with bzip2
+bzip2 -d country_vaccinations.csv.bz2
+
+
+ ../../../../tarql/target/appassembler/bin/tarql -ntriples country_vaccinations_by_manufacturer_sparql.sparql country_vaccinations_by_manufacturer.csv > country_vaccinations_by_manufacturer_triples.nt
+
+ ../../../../tarql/target/appassembler/bin/tarql -ntriples 2021VAERSDATA_sparql.sparql 2021VAERSDATA.csv > 2021VAERSDATA_triples.nt
+ ../../../../tarql/target/appassembler/bin/tarql -ntriples covid-variants_sparql.sparql covid-variants.csv > covid-variants_triples.nt

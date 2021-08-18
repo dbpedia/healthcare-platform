@@ -20,11 +20,11 @@ tmux a
 # Upload using Maven Deploy
 git clone https://github.com/dbpedia/databus-maven-plugin
 
-nano pom.xml
+# Obtain Webid: https://github.com/dbpedia/webid
+# nano pom.xml
 # change groupID to "healthcare"
 # change version to date
 # module "covid-world-vaccination-progress"
 # change databus member to "guang"
 
 # create webID authentication
-# Obtain Webid: https://github.com/dbpedia/webid
