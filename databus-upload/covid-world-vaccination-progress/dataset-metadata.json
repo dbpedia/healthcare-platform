@@ -1,0 +1,29 @@
+{
+  "id": "gpreda/covid-world-vaccination-progress",
+  "id_no": 1093816,
+  "datasetId": 1093816,
+  "datasetSlug": "covid-world-vaccination-progress",
+  "ownerUser": "gpreda",
+  "usabilityRating": 1.0,
+  "totalViews": 314071,
+  "totalVotes": 1804,
+  "totalDownloads": 58562,
+  "title": "COVID-19 World Vaccination Progress",
+  "subtitle": "Daily and Total Vaccination for COVID-19 in the World from Our World in Data",
+  "description": "### Context\n\nData is collected daily from [**Our World in Data**](https://ourworldindata.org/) GitHub repository for [covid-19](https://github.com/owid/covid-19-data), merged and uploaded. Country level vaccination data is gathered and assembled in one single file. Then, this data file is merged with locations data file to include vaccination sources information. A second file, with manufacturers information, is included.\n\n\n### Content\n\nThe data (country vaccinations) contains the following information:\n* **Country**- this is the  country for which the vaccination information is provided;   \n* **Country ISO Code** - ISO code for the country;   \n* **Date** - date for the data entry; for some of the dates we have only the daily vaccinations, for others, only the (cumulative) total;   \n* **Total number of vaccinations** - this is the absolute number of total immunizations in the country;  \n* **Total number of people vaccinated** - a person, depending on the immunization scheme, will receive one or more (typically 2) vaccines; at a certain moment, the number of vaccination might be larger than the number of people;  \n* **Total number of people fully vaccinated** - this is the number of people that received the entire set of immunization according to the immunization scheme (typically 2); at a certain moment in time, there might be a certain number of people that received one vaccine and another number (smaller) of people that received all vaccines in the scheme;  \n* **Daily vaccinations (raw)** - for a certain data entry, the number of vaccination for that date/country;  \n* **Daily vaccinations** - for a certain data entry, the number of vaccination for that date/country;  \n* **Total vaccinations per hundred** - ratio (in percent) between vaccination number and total population up to the date in the country;  \n* **Total number of people vaccinated per hundred** - ratio (in percent) between population immunized and total population up to the date in the country;  \n* **Total number of people fully vaccinated per hundred** - ratio (in percent) between population fully immunized and total population up to the date in the country;   \n* **Number of vaccinations per day** - number of daily vaccination for that day and country;   \n* **Daily vaccinations per million** -  ratio (in ppm) between vaccination number and total population for the current date in the country;    \n* **Vaccines used in the country** - total number of vaccines used in the country (up to date);    \n* **Source name** - source of the information (national authority, international organization, local organization etc.);   \n* **Source website** - website of the source of information;    \n\n\nThere is a second file added recently (country vaccinations by manufacturer), with the following columns:\n* **Location** - country;  \n* **Date** - date;  \n* **Vaccine** - vaccine type;   \n* **Total number of vaccinations** - total number of vaccinations / current time and vaccine type.\n\n\n### Acknowledgements\n\nI would like to specify that I am only making available **Our World in Data** collected data about vaccinations to Kagglers. My contribution is very small, just daily collection, merge and upload of the updated version, as maintained by **Our World in Data** in their GitHub repository.\n\n### Inspiration\n\nTrack COVID-19 vaccination in the World, answer instantly to your questions:   \n- Which country is using what vaccine?   \n- In which country the vaccination programme is more advanced?   \n- Where are vaccinated more people per day? But in terms of percent from entire population ?\n\nCombine this dataset with [COVID-19 World Testing Progress](https://www.kaggle.com/gpreda/covid19-world-testing-progress) and [COVID-19 Variants Worldwide Evolution](https://www.kaggle.com/gpreda/covid19-variants) to get more insights on the dynamics of the pandemics, as reflected in the interdependence of amount of testing performed, results of sequencing and vaccination campaigns.\n\n",
+  "isPrivate": false,
+  "keywords": [
+    "public health",
+    "biology",
+    "health",
+    "public safety",
+    "covid19"
+  ],
+  "licenses": [
+    {
+      "name": "CC0-1.0"
+    }
+  ],
+  "collaborators": [],
+  "data": []
+}
