@@ -9,9 +9,9 @@ CONSTRUCT {
     ex:ageGroup ?ageG;
     dbo:gender ?g;
     dbo:date ?d;
-    ex:cases ?cases;
-    ex:deaths ?deaths;
-    ex:recovered ?recovered;
+    ex:cases ?cases_;
+    ex:deaths ?deaths_;
+    ex:recovered ?recovered_;
 }
 WHERE {
   BIND (URI(CONCAT('http://dbpedia.org/resource/Germany','/', ?state,'/CovidVaccinationStatistics/', ?date)) AS ?s)
@@ -20,7 +20,7 @@ WHERE {
   BIND (xsd:string(?age_group) as ?ageG)
   BIND (xsd:string(?gender) as ?g)
   BIND (xsd:date(?date) AS ?d)
-  BIND (xsd:integer(?cases) as ?cases)
-  BIND (xsd:integer(?deaths) as ?deaths)
-  BIND (xsd:integer(?recovered) as ?recovered)
+  BIND (xsd:integer(?cases) as ?cases_)
+  BIND (xsd:integer(?deaths) as ?deaths_)
+  BIND (xsd:integer(?recovered) as ?recovered_)
 }
