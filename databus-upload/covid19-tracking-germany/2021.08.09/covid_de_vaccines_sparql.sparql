@@ -5,7 +5,7 @@ PREFIX ex:  <http://health.example.org/property#>
 CONSTRUCT {
   ?s a dbo:Vaccine;
     dbo:date ?d;
-    dbo:dose ?doses;
+    dbo:dose ?doses_;
     dbo:dosesFirst ?dosesF;
     dbo:dosesSecond ?dosesS;
     dbo:pfizerCumul ?pfizerC;
@@ -17,7 +17,7 @@ CONSTRUCT {
 WHERE {
   BIND (URI(CONCAT('http://dbpedia.org/resource/Germany','/CovidVaccinationStatistics/', ?date)) AS ?s)
   BIND (xsd:date(?date) AS ?d)
-  BIND (xsd:integer(?doses) as ?doses)
+  BIND (xsd:integer(?doses) as ?doses_)
   BIND (xsd:integer(?doses_first) as ?dosesF)
   BIND (xsd:integer(?doses_second) as ?dosesS)
   BIND (xsd:integer(?pfizer_cumul) as ?pfizerC)
