@@ -1,4 +1,0 @@
-name                                       size  creationDate         
-----------------------------------------  -----  -------------------  
-country_vaccinations_by_manufacturer.csv  460KB  2021-08-17 08:01:32  
-country_vaccinations.csv                    7MB  2021-08-17 08:01:32  

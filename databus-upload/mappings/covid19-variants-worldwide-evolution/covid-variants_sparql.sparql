@@ -1,0 +1,22 @@
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX ex:  <http://health.example.org/property#>
+
+CONSTRUCT {
+  ?s a dbo:Covid;
+    dbo:location ?loc;
+    dbo:date ?d;
+    ex:variant ?variant;
+    ex:numSequences ?numSeq;
+    ex:percSequences ?percSeq;
+    ex:numSequences_total ?nsTot;
+}
+WHERE {
+  BIND (URI(CONCAT('http://dbpedia.org/resource/',?loc,'/CovidVaccinationStatistics/', ?date)) AS ?s)
+  BIND (xsd:string(?location) AS ?loc)
+  BIND (xsd:date(?date) AS ?d)
+  BIND (xsd:string(?variant) as ?variant)
+  BIND (xsd:integer(?num_sequences) AS ?numSeq)
+  BIND (xsd:integer(?perc_sequences) AS ?percSeq)
+  BIND (xsd:integer(?num_sequences_total) AS ?nsTot)
+}
