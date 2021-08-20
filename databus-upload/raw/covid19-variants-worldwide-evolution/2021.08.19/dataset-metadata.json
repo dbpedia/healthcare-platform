@@ -1,0 +1,30 @@
+{
+  "id": "gpreda/covid19-variants",
+  "id_no": 1472587,
+  "datasetId": 1472587,
+  "datasetSlug": "covid19-variants",
+  "ownerUser": "gpreda",
+  "usabilityRating": 1.0,
+  "totalViews": 463,
+  "totalVotes": 0,
+  "totalDownloads": 43,
+  "title": "COVID-19 Variants Worldwide Evolution",
+  "subtitle": "Daily Updated Reports on COVID-19 Variants from Our World in Data",
+  "description": "\n<img src=\"https://images.newscientist.com/wp-content/uploads/2020/02/11165812/c0481846-wuhan_novel_coronavirus_illustration-spl.jpg\">\n\n### Context\nThe data is about COVID-19 variants (see more details about this [here](https://www.cdc.gov/coronavirus/2019-ncov/variants/variant-info.html)).\nData is collected daily from [**Our World in Data**](https://ourworldindata.org/) GitHub repository for [covid-19](https://github.com/owid/covid-19-data), merged and uploaded. \n\n### Content\n\nThe data (COVID-19 Variants) contains the following information:\n* `location`- this is the  country for which the variants information is provided;   \n* `date` - date for the data entry; \n* `variant` - this is the variant corresponding to this data entry;  \n* `num_sequences` - the number of sequences processed (for the country, variant and date);  \n* `perc_sequences` - percentage of sequences from the total number of sequences (for the country, variant and date);  \n* `num_sequences_total` - total number of sequences (for the country, variant and date);  \n\n### Acknowledgements\n\nI would like to specify that I am only making available **Our World in Data** collected data about COVID-19 variants to Kagglers. My contribution is very small, just daily collection, merge and upload of the updated version, as maintained by **Our World in Data** in their GitHub repository.\n\n### Inspiration\n\nTrack COVID-19 variants in the World, answer instantly to your questions:   \n- What variants are sequenced and in which country?   \n- How the variants evolved and where?   \n- Where the diversity of the variants is large and where only one variants are proliferating?\nCombine this information with the vaccination and daily COVID cases datasets to follow the complex dynamic of virus spreading, morphing in variants, and the effect of vaccination on limiting the virus spread.",
+  "isPrivate": false,
+  "keywords": [
+    "healthcare",
+    "public health",
+    "biology",
+    "beginner",
+    "news",
+    "covid19"
+  ],
+  "licenses": [
+    {
+      "name": "CC0-1.0"
+    }
+  ],
+  "collaborators": [],
+  "data": []
+}

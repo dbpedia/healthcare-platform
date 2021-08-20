@@ -3,24 +3,24 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX ex:  <http://health.example.org/property#>
 
 CONSTRUCT {
-  ?s a dbo:Covid19;
-    dbo:state ?state;
-    dbo:country ?country;
+  ?s a dbo:VaccinationStatistics;
+    ex:state ?state_;
+    ex:country ?country_;
     ex:ageGroup ?ageG;
-    dbo:gender ?g;
+    ex:gender ?gender_;
     dbo:date ?d;
-    ex:cases ?cases;
-    ex:deaths ?deaths;
-    ex:recovered ?recovered;
+    ex:cases ?cases_;
+    ex:deaths ?deaths_;
+    ex:recovered ?recovered_;
 }
 WHERE {
-  BIND (URI(CONCAT('http://dbpedia.org/resource/Germany','/', ?state,'/CovidVaccinationStatistics/', ?date)) AS ?s)
-  BIND (xsd:string(?state) as ?state)
-  BIND (xsd:string(?country) as ?country)
+  BIND (URI(CONCAT('http://dbpedia.org/resource/Germany/', ?state,'/CovidVaccinationStatistics/', ?date)) AS ?s)
+  BIND (xsd:string(?state) as ?state_)
+  BIND (xsd:string(?country) as ?country_)
   BIND (xsd:string(?age_group) as ?ageG)
-  BIND (xsd:string(?gender) as ?g)
+  BIND (xsd:string(?gender) as ?gender_)
   BIND (xsd:date(?date) AS ?d)
-  BIND (xsd:integer(?cases) as ?cases)
-  BIND (xsd:integer(?deaths) as ?deaths)
-  BIND (xsd:integer(?recovered) as ?recovered)
+  BIND (xsd:integer(?cases) as ?cases_)
+  BIND (xsd:integer(?deaths) as ?deaths_)
+  BIND (xsd:integer(?recovered) as ?recovered_)
 }

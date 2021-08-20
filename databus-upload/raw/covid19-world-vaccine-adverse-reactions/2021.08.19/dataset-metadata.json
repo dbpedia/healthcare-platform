@@ -1,0 +1,29 @@
+{
+  "id": "ayushggarg/covid19-vaccine-adverse-reactions",
+  "id_no": 1121787,
+  "datasetId": 1121787,
+  "datasetSlug": "covid19-vaccine-adverse-reactions",
+  "ownerUser": "ayushggarg",
+  "usabilityRating": 1.0,
+  "totalViews": 27553,
+  "totalVotes": 124,
+  "totalDownloads": 4411,
+  "title": "COVID-19 World Vaccine Adverse Reactions",
+  "subtitle": "COVID-19 Vaccine Adverse Event Reporting System",
+  "description": "The [Vaccine Adverse Event Reporting System (VAERS)](https://vaers.hhs.gov/) was created by the **Food and Drug Administration (FDA)** and **Centers for Disease Control and Prevention (CDC)** to receive reports about adverse events that may be associated with vaccines. No prescription drug or biological product, such as a vaccine, is completely free from side effects. Vaccines protect many people from dangerous illnesses, but vaccines, like drugs, can cause side effects, a small percentage of which may be serious. VAERS is used to continually monitor reports to determine whether any vaccine or vaccine lot has a higher than expected rate of events.\n\nDoctors and other vaccine providers are encouraged to report adverse events, even if they are not certain that the vaccination was the cause. Since it is difficult to distinguish a coincidental event from one truly caused by a vaccine, the VAERS database will contain events of both types.\n\nThis dataset is downloaded from [VAERS datasets](https://vaers.hhs.gov/data/datasets.html?) and for more details on the dataset refer to the [User Guide](https://vaers.hhs.gov/docs/VAERSDataUseGuide_November2020.pdf).",
+  "isPrivate": false,
+  "keywords": [
+    "public health",
+    "health",
+    "demographics",
+    "public safety",
+    "covid19"
+  ],
+  "licenses": [
+    {
+      "name": "CC0-1.0"
+    }
+  ],
+  "collaborators": [],
+  "data": []
+}
