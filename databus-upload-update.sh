@@ -16,6 +16,7 @@ cd covid19-world-vaccination-progress/
 mkdir "$(date +"%Y.%m.%d")"
 cd "$(date +"%Y.%m.%d")"
 kaggle datasets download -d gpreda/covid-world-vaccination-progress --unzip
+kaggle datasets files gpreda/covid-world-vaccination-progress > covid19-world-vaccination-progress-downloadinfo.txt
 kaggle datasets metadata -p . gpreda/covid-world-vaccination-progress
 ls
 cd ../../
@@ -23,6 +24,7 @@ cd covid19-tracking-germany/
 mkdir "$(date +"%Y.%m.%d")"
 cd "$(date +"%Y.%m.%d")"
 kaggle datasets download -d headsortails/covid19-tracking-germany --unzip
+kaggle datasets files headsortails/covid19-tracking-germany > covid19-tracking-germany-downloadinfo.txt
 rm -rf $(find . -type f ! -name "*.csv")
 kaggle datasets metadata -p . headsortails/covid19-tracking-germany
 ls
@@ -31,6 +33,7 @@ cd covid19-world-vaccine-adverse-reactions/
 mkdir "$(date +"%Y.%m.%d")"
 cd "$(date +"%Y.%m.%d")"
 kaggle datasets download -d ayushggarg/covid19-vaccine-adverse-reactions --unzip
+kaggle datasets files ayushggarg/covid19-vaccine-adverse-reactions > covid19-vaccine-adverse-reactions-downloadinfo.txt
 kaggle datasets metadata -p . ayushggarg/covid19-vaccine-adverse-reactions
 ls
 cd ../../
@@ -38,9 +41,10 @@ cd covid19-variants-worldwide-evolution/
 mkdir "$(date +"%Y.%m.%d")"
 cd "$(date +"%Y.%m.%d")"
 kaggle datasets download -d gpreda/covid19-variants --unzip
+kaggle datasets files gpreda/covid19-variants > covid19-variants-worldwide-evolution-downloadinfo.txt
 kaggle datasets metadata -p . gpreda/covid19-variants
 ls
-cd ../../
+cd ../../../../
 
 # Tarql mapping CSV files to RDF triples
 ./tarql/bin/tarql --ntriples databus-upload/mappings/covid19-tracking-germany/covid_de_sparql.sparql databus-upload/raw/covid19-tracking-germany/"$(date +"%Y.%m.%d")"/covid_de.csv > databus-upload/input/covid19-tracking-germany/covid_de_triples.nt
@@ -64,34 +68,57 @@ cd covid19-world-vaccination-progress/
 cd "$(date +"%Y.%m.%d")"
 ls
 bzip2 country_vaccinations.csv 
-mv country_vaccinations.csv.bz2 country_vaccinations_tag=default.csv.bz2
+mv country_vaccinations.csv.bz2 covid19-world-vaccination-progress_tag=default.csv.bz2
 bzip2 country_vaccinations_by_manufacturer.csv 
-mv country_vaccinations_by_manufacturer.csv.bz2 country_vaccinations_tag=manufacturer.csv.bz2
+mv country_vaccinations_by_manufacturer.csv.bz2 covid19-world-vaccination-progress_tag=vaccinationsByManufacturer.csv.bz2
 cd ../../
 cd covid19-tracking-germany/
 cd "$(date +"%Y.%m.%d")"
 ls
 bzip2 covid_de.csv 
-mv covid_de.csv.bz2 covid_de_tag=default.csv.bz2
+mv covid_de.csv.bz2 covid19-tracking-germany_tag=default.csv.bz2
 bzip2 covid_de_vaccines.csv 
-mv covid_de_vaccines.csv.bz2 covid_de_tag=vaccines.csv.bz2
+mv covid_de_vaccines.csv.bz2 covid19-tracking-germany_tag=vaccines.csv.bz2
 cd ../../
 cd covid19-world-vaccine-adverse-reactions/
 cd "$(date +"%Y.%m.%d")"
 ls
 bzip2 2021VAERSDATA.csv 
-mv 2021VAERSDATA.csv.bz2 2021VAERS_tag=default.csv.bz2
+mv 2021VAERSDATA.csv.bz2 covid19-world-vaccine-adverse-reactions_tag=default.csv.bz2
 bzip2 2021VAERSSYMPTOMS.csv 
-mv 2021VAERSSYMPTOMS.csv.bz2 2021VAERS_tag=symptoms.csv.bz2
+mv 2021VAERSSYMPTOMS.csv.bz2 covid19-world-vaccine-adverse-reactions_tag=symptoms.csv.bz2
 bzip2 2021VAERSVAX.csv 
-mv 2021VAERSVAX.csv.bz2 2021VAERS_tag=vax.csv.bz2
+mv 2021VAERSVAX.csv.bz2 covid19-world-vaccine-adverse-reactions_tag=vax.csv.bz2
 cd ../../
 cd covid19-variants-worldwide-evolution/
 cd "$(date +"%Y.%m.%d")"
 ls
 bzip2 covid-variants.csv 
-mv covid-variants.csv.bz2 covid-variants_tag=default.csv.bz2
+mv covid-variants.csv.bz2 covid19-variants-worldwide-evolution_tag=default.csv.bz2
 cd ../../
+
+
+
+# Compress mappings/triples files .nt to .nt.bz2
+cd ../input
+cd covid19-world-vaccination-progress/
+bzip2 country_vaccinations_triples.nt
+bzip2 country_vaccinations_by_manufacturer_triples.nt
+cd ../
+cd covid19-tracking-germany/
+bzip2 covid_de_triples.nt
+bzip2 covid_de_vaccines_triples.nt
+bzip2 demographics_de_triples.nt
+cd ../
+cd covid19-world-vaccine-adverse-reactions/
+bzip2 2021VAERSDATA_triples.nt
+bzip2 2021VAERSSYMTOMS_triples.nt
+bzip2 2021VAERSVAX_triples.nt
+cd ../
+cd covid19-variants-worldwide-evolution/
+bzip2 covid-variants_triples.nt
+cd ../../
+
 
 # Future task to check version:
 # Step1: check if there is newer version of Kaggle dataset
