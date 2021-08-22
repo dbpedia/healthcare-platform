@@ -35,17 +35,3 @@ https://drive.google.com/file/d/148L6tIGYblEgEZtLZ-LThCvaYY_jla29/view?usp=shari
 - Search Wikipedia and DBpedia resources in the healthcare field; check mappings
 - Build sparql query for searching healthcare info
 
-## Potential Datasets:
-- COVID cases and deaths worldwide: [Datahub Novel Coronavirus 2019 COVID-19](https://datahub.io/core/covid-19#data)
-- Pharmaceutical Drug Spending: [Datahub Pharmaceutical Drug Spending](https://datahub.io/core/pharmaceutical-drug-spending#pandas)
-- World Vaccination Progress: [Kaggle COVID-19 World Vaccination Progress](https://www.kaggle.com/gpreda/covid-world-vaccination-progress)
-- World Vaccine Adverse Reactions: [Kaggle COVID-19 World Vaccine Adverse Reactions](https://www.kaggle.com/ayushggarg/covid19-vaccine-adverse-reactions)
-- Diabetes: [Datahub Diabetes](https://datahub.io/machine-learning/diabetes#r)
-- Covid-19 Vaccine by Country: [Kaggle Latest Worldwide Covid19 Vaccine Data](https://www.kaggle.com/anandhuh/latest-worldwide-vaccine-data)
-- Vaccine Preventable by Disease name: [Kaggle Vaccine Preventable Diseases](https://www.kaggle.com/rishidamarla/vaccine-preventable-diseases)
-- [Kaggle World Vaccination Progress](https://www.kaggle.com/kingabzpro/world-vaccine-progress)
-- [Kaggle World Health Statistics 2020](https://www.kaggle.com/utkarshxy/who-worldhealth-statistics-2020-complete)
-- [COVID Mapping](https://coronavirus.jhu.edu/map.html)
-- [COVID Worldometer](https://www.worldometers.info/coronavirus/)
-- [COVID 19 dataset by date](https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset?select=covid_19_data.csv)
-- [DBpedia Live](https://www.dbpedia.org/resources/live/)
