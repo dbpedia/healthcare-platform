@@ -1,0 +1,18 @@
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX ex:  <http://health.example.org/property#>
+
+CONSTRUCT {
+  ?s a dbo:VaccinationStatistics;
+    ex:state ?state_;
+    ex:gender ?gender_;
+    ex:ageGroup ?ageG;
+    ex:population ?population_;
+}
+WHERE {
+  BIND (URI(CONCAT('http://dbpedia.org/resource/Germany/', ?state,'/CovidVaccinationStatistics/')) AS ?s)
+  BIND (xsd:string(?state) as ?state_)
+  BIND (xsd:string(?gender) as ?gender_)
+  BIND (xsd:string(?age_group) as ?ageG)
+  BIND (xsd:integer(?population) as ?population_)
+}
