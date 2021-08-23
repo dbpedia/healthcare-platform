@@ -7,8 +7,12 @@ Repository for the GSoC 2021 project 'Update DBpedia SPARQL for Wiki Resources R
 ## Proposal
 [Proposal for Healthcare Platform](https://docs.google.com/document/d/1kGc_-2c9FV_pjw5Y0rD3VW8jecGz4Q5MlsqZKiIYpZ8/edit#)
 
-## COVID Mapping
-https://drive.google.com/file/d/148L6tIGYblEgEZtLZ-LThCvaYY_jla29/view?usp=sharing
+## COVID Mapping and Datasets uploaded to Databus
+[Diagram on Google Drive](https://drive.google.com/file/d/148L6tIGYblEgEZtLZ-LThCvaYY_jla29/view?usp=sharing)
+- COVID19-world-vaccination-progress
+- COVID19-world-vaccine-adverse-reactions
+- COVID19-variants-worldwide-evolution
+- COVID19-tracking-germany
 ![alt text](https://github.com/dbpedia/healthcare-platform/blob/main/COVID-Mapping.png)
 
 ## Google Drive folder (Data only)
