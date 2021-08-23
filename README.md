@@ -9,7 +9,7 @@ Repository for the GSoC 2021 project 'Update DBpedia SPARQL for Wiki Resources R
 
 ## COVID Mapping
 https://drive.google.com/file/d/148L6tIGYblEgEZtLZ-LThCvaYY_jla29/view?usp=sharing
-<img src="COVID-MAPPING.PNG">
+![alt text](https://github.com/dbpedia/healthcare-platform/blob/main/COVID-Mapping.png)
 
 ## Google Drive folder (Data only)
 [Google Drive Data folder](https://drive.google.com/drive/folders/1YAvgEaIP1r_ZN_euWz3ZCdwQJZRARCmL?usp=sharing)
