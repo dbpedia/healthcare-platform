@@ -7,6 +7,10 @@ Repository for the GSoC 2021 project 'Update DBpedia SPARQL for Wiki Resources R
 ## Proposal
 [Proposal for Healthcare Platform](https://docs.google.com/document/d/1kGc_-2c9FV_pjw5Y0rD3VW8jecGz4Q5MlsqZKiIYpZ8/edit#)
 
+## Contributions to DBpedia:
+- [Datasets deployed to DBpedia databus](https://databus.dbpedia.org/hckg/) (raw for csv files, mappings for sparql queries, input for rdf triples converted by tarql)
+- [DBpedia Ontology mappings](http://mappings.dbpedia.org/index.php/Special:Contributions/Guangzhang) (e.g. vaccination statistics, vaccine, doses, pfizer, moderna, astrazenca, doses)
+
 ## COVID Mapping and Datasets uploaded to Databus
 [Diagram on Google Drive](https://drive.google.com/file/d/148L6tIGYblEgEZtLZ-LThCvaYY_jla29/view?usp=sharing)
 - COVID19-world-vaccination-progress
@@ -14,29 +18,3 @@ Repository for the GSoC 2021 project 'Update DBpedia SPARQL for Wiki Resources R
 - COVID19-variants-worldwide-evolution
 - COVID19-tracking-germany
 ![alt text](https://github.com/dbpedia/healthcare-platform/blob/main/COVID-Mapping.png)
-
-## Google Drive folder (Data only)
-[Google Drive Data folder](https://drive.google.com/drive/folders/1YAvgEaIP1r_ZN_euWz3ZCdwQJZRARCmL?usp=sharing)
-
-## DBpedia Resources
-- [DBpedia Web](https://www.dbpedia.org/)
-- [Github Repo](https://github.com/dbpedia)
-- [Get familiar with DBpedia Sparql databus](https://github.com/dbpedia/virtuoso-sparql-endpoint-quickstart)
-
-## Healthplatform Resources
-- [CORD-19: The Covid-19 Open Research Dataset](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7251955/)
-- [Analyse and compare recency/correctness of Wikidata to recency/correctness of Wikipedia/DBpedia](https://svn.aksw.org/papers/2020/qurator_gfs/public.pdf)
-- [SPARQL wikidata](https://www.wikidata.org/wiki/Wikidata:SPARQL_tutorial)
-- [SPARQL w3](https://www.w3.org/TR/sparql11-query/)
-
-## Tasks to do:
-- Search for RDF and CSV datasets on COVID and Healthcare
-- Datahubs: [zenodo](https://zenodo.org/) and [datahub](https://datahub.io/)
-- Update mappings for current COVID and Healthcare resources (i.e. COVID and COVID-Symptoms)
-- Learn different dbpedia types (i.e. dbo, dbp, dbr, dbo, dbt, dbc)
-- TARQL mapping from CSV to RDF
-- Existing mappings updates (e.g. pendamicDeaths to pandemicDeaths)
-- Questions/Info relating to Heathcare/COVID (e.g which vaccines are administered in each country?)
-- Search Wikipedia and DBpedia resources in the healthcare field; check mappings
-- Build sparql query for searching healthcare info
-
