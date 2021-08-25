@@ -20,7 +20,7 @@
   <properties>
 <databus.documentation>
     # Healthcare data
-    covid19-tracking-germany: daily updated cases & deaths - augmented with geospatial & demographics info. 2021.08.19 == version 487. kaggle datasets download -d headsortails/covid19-tracking-germany. Source: https://www.kaggle.com/headsortails/covid19-tracking-germany
+    covid19-tracking-germany: daily updated cases and deaths - augmented with geospatial and demographics info. 2021.08.19 == version 487. kaggle datasets download -d headsortails/covid19-tracking-germany. Source: https://www.kaggle.com/headsortails/covid19-tracking-germany
     covid19-variants-worldwide-evolution:
     covid19-world-vaccination-progress:
     covid19-world-vaccine-adverse-reactions:
