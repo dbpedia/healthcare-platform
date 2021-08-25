@@ -22,7 +22,7 @@
     # Healthcare data
     covid19-tracking-germany: daily updated cases and deaths - augmented with geospatial and demographics info. 2021.08.19 == version 487. kaggle datasets download -d headsortails/covid19-tracking-germany. Source: https://www.kaggle.com/headsortails/covid19-tracking-germany
     covid19-variants-worldwide-evolution: daily updated reports on COVID-19 variants from our world in Data. 2021.08.19 == version 33. kaggle datasets download -d gpreda/covid19-variants. Source: https://www.kaggle.com/gpreda/covid19-variants
-    covid19-world-vaccination-progress:
+    covid19-world-vaccination-progress: daily and total vaccination for COVID-19 in the world from our world in Data. 2021.08.19 == version 183. kaggle datasets download -d gpreda/covid-world-vaccination-progress. Source: https://www.kaggle.com/gpreda/covid-world-vaccination-progress 
     covid19-world-vaccine-adverse-reactions:
 </databus.documentation>
     <databus.license>http://purl.oclc.org/NET/rdflicense/cc-by3.0</databus.license>
