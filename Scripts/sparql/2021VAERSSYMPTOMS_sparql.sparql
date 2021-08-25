@@ -1,0 +1,22 @@
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX ex:  <http://health.example.org/property#>
+
+CONSTRUCT {
+  ?s a dbo:VaccinationStatistics;
+    ex:vaersID ?vID;
+    ex:symptom1 ?sym1;
+    ex:symptom2 ?sym2;
+    ex:symptom3 ?sym3;
+    ex:symptom4 ?sym4;
+    ex:symptom5 ?sym5;
+}
+WHERE {
+  BIND (URI(CONCAT('http://dbpedia.org/resource/vaccine-symptoms/')) AS ?s)
+  BIND (xsd:integer(?VAERS_ID) as ?vID)
+  BIND (xsd:string(?SYMPTOM1) AS ?sym1)
+  BIND (xsd:string(?SYMPTOM2) AS ?sym2)
+  BIND (xsd:string(?SYMPTOM3) AS ?sym3)
+  BIND (xsd:string(?SYMPTOM4) AS ?sym4)
+  BIND (xsd:string(?SYMPTOM5) AS ?sym5)
+}

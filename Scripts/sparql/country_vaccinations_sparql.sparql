@@ -1,0 +1,36 @@
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX ex:  <http://health.example.org/property#>
+
+CONSTRUCT {
+  ?s a dbo:VaccinationStatistics;
+    dbo:country ?c;
+    dbo:isoCode ?i;
+    dbo:date ?d;
+    dbo:totalVaccinations ?tv;
+    dbo:peopleVaccinated ?pv;
+    dbo:peopleFullyVaccinated ?pfv;
+    dbo:dailyVaccinationsRaw ?dvr;
+    dbo:totalVaccinationsPerHundred ?tvh;
+    dbo:peopleVaccinatedPerHundred ?pvh;
+    dbo:dailyVaccinationsPerMillion ?dvm;
+    dbo:vaccine ?v;
+    dbo:sourceName ?sn;
+    dbo:sourceWebsite ?sw;
+}
+WHERE {
+  BIND (URI(CONCAT('http://dbpedia.org/resource/',?country,'/CovidVaccinationStatistics/', ?date)) AS ?s)
+  BIND (xsd:string(?country) AS ?c)
+  BIND (xsd:string(?iso_code) AS ?i)
+  BIND (xsd:date(?date) AS ?d)
+  BIND (xsd:integer(?total_vaccinations) AS ?tv)
+  BIND (xsd:integer(?people_vaccinated) AS ?pv)
+  BIND (xsd:integer(?people_fully_vaccinated) AS ?pfv)
+  BIND (xsd:integer(?daily_vaccinations_raw) AS ?dvr)
+  BIND (xsd:integer(?total_vaccinations_per_hundred) AS ?tvh)
+  BIND (xsd:integer(?people_vaccinated_per_hundred) AS ?pvh)
+  BIND (xsd:integer(?daily_vaccinations_per_million) AS ?dvm)
+  BIND (xsd:string(?vaccines) as ?v)
+  BIND (xsd:string(?source_name) as ?sn)
+  BIND (xsd:string(?source_website) as ?sw)
+}
