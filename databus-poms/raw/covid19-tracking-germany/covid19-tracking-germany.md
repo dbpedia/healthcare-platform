@@ -1,8 +1,8 @@
 # covid19-tracking-germany
 2021.08.19==version 487
-Daily updated cases and deaths - augmented with geospatial and demographics info.
-kaggle datasets download -d headsortails/covid19-tracking-germany. 
-Source: https://www.kaggle.com/headsortails/covid19-tracking-germany
+- Daily updated cases and deaths - augmented with geospatial and demographics info.
+- kaggle datasets download -d headsortails/covid19-tracking-germany. 
+- Source: https://www.kaggle.com/headsortails/covid19-tracking-germany
 
 
 # Context
