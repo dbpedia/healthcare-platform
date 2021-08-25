@@ -1,6 +1,7 @@
 # covid19-tracking-germany
 2021.08.19==version 487
 
+
 # Context
 The 2019 Novel Coronavirus (COVID-19) continues to spread in countries around the world. This dataset provides daily updated number of reported cases & deaths in Germany on the federal state (Bundesland) and county (Landkreis/Stadtkreis) level. In April 2021 I added a dataset on vaccination progress. In addition, I provide geospatial shape files and general state-level population demographics to aid the analysis.
 
