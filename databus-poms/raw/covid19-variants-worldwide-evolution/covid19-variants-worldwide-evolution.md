@@ -1,5 +1,8 @@
 # covid19-variants-worldwide-evolution
 2021.08.19 == version 33
+- Daily updated reports on COVID-19 variants from our world in Data. 
+- kaggle datasets download -d gpreda/covid19-variants. 
+- Source: https://www.kaggle.com/gpreda/covid19-variants
 
 
 # Context
