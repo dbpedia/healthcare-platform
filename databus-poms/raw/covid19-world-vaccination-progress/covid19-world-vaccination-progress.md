@@ -1,7 +1,8 @@
-## covid19-world-vaccination-progress
-
-## 2021.08.19 == version 183
-
+# covid19-world-vaccination-progress
+2021.08.19 == version 183
+- Daily and total vaccination for COVID-19 in the world from our world in Data. 
+- kaggle datasets download -d gpreda/covid-world-vaccination-progress. 
+- Source: https://www.kaggle.com/gpreda/covid-world-vaccination-progress 
 
 # Context
 Data is collected daily from Our World in Data GitHub repository for covid-19, merged and uploaded. Country level vaccination data is gathered and assembled in one single file. Then, this data file is merged with locations data file to include vaccination sources information. A second file, with manufacturers information, is included.
