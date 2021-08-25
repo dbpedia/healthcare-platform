@@ -1,6 +1,5 @@
 # covid19-variants-worldwide-evolution
-
-# 2021.08.19 == version 33
+2021.08.19 == version 33
 
 
 # Context
