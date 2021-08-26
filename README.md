@@ -22,4 +22,4 @@ Repository for the GSoC 2021 project 'Update DBpedia SPARQL for Wiki Resources R
 ## Federated Queries for COVID19 Vaccination Statistics
 
 [COVID19 Vaccination Doses By Date in Germany](https://api.triplydb.com/s/BY_zZWLNH)
-
+![alt text](https://github.com/dbpedia/healthcare-platform/blob/main/Scripts/dosesByDateGermany.PNG)
