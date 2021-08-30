@@ -7,7 +7,8 @@ Repository for the GSoC 2021 project 'Update DBpedia SPARQL for Wiki Resources R
 ## Proposal
 [Proposal for Healthcare Platform](https://docs.google.com/document/d/1kGc_-2c9FV_pjw5Y0rD3VW8jecGz4Q5MlsqZKiIYpZ8/edit#)
 
-## Contributions to DBpedia:
+## Contributions to DBpedia by Guang with help from mentor Marvin in DBpedia:
+- Healthcare Research and Datasets Finding: [#Potential Healthcare Datasets]((https://guang-zh.github.io/dbpedia-GSoC2021/)
 - [Datasets deployed to DBpedia databus](https://databus.dbpedia.org/hckg/) (raw for csv files, mappings for sparql queries, input for rdf triples converted by tarql)
 - [DBpedia Ontology mappings](http://mappings.dbpedia.org/index.php/Special:Contributions/Guangzhang) (e.g. vaccination statistics, vaccine, doses, pfizer, moderna, astrazenca, doses)
 - [dbpedia/healthcare-platform github repo: >100 commits](https://github.com/dbpedia/healthcare-platform)
