@@ -8,7 +8,7 @@ Repository for the GSoC 2021 project 'Update DBpedia SPARQL for Wiki Resources R
 [Proposal for Healthcare Platform](https://docs.google.com/document/d/1kGc_-2c9FV_pjw5Y0rD3VW8jecGz4Q5MlsqZKiIYpZ8/edit#)
 
 ## Contributions to DBpedia by Guang with help from mentor Marvin in DBpedia:
-- Healthcare Research and Datasets Finding: [#Potential Healthcare Datasets]((https://guang-zh.github.io/dbpedia-GSoC2021/)
+- Healthcare Research and Datasets Finding: [#Potential Healthcare Datasets](https://guang-zh.github.io/dbpedia-GSoC2021/)
 - [Convert Kaggle CSV files to RDF using Tarql](https://tarql.github.io/)
 - [Release on DBpedia databus as DBpedia extension](https://databus.dbpedia.org/hckg/) (raw for csv files, mappings for sparql queries, input for rdf triples converted by tarql)
 - [Auto updating datasets using Shell Scripts](https://github.com/dbpedia/healthcare-platform/blob/main/databus-upload-update.sh)
@@ -17,10 +17,10 @@ Repository for the GSoC 2021 project 'Update DBpedia SPARQL for Wiki Resources R
 
 ## COVID Mapping using Tarql (guang-zh) and Datasets uploaded to Databus using maven-databus (Marvin)
 [Diagram on Google Drive for the datasets](https://drive.google.com/file/d/148L6tIGYblEgEZtLZ-LThCvaYY_jla29/view?usp=sharing)
-- COVID19-world-vaccination-progress
-- COVID19-world-vaccine-adverse-reactions
-- COVID19-variants-worldwide-evolution
-- COVID19-tracking-germany
+- [COVID19-world-vaccination-progress](https://www.kaggle.com/gpreda/covid-world-vaccination-progress)
+- [COVID19-world-vaccine-adverse-reactions](https://www.kaggle.com/ayushggarg/covid19-vaccine-adverse-reactions)
+- [COVID19-variants-worldwide-evolution](https://www.kaggle.com/gpreda/covid19-variants)
+- [COVID19-tracking-germany](https://www.kaggle.com/headsortails/covid19-tracking-germany)
 ![alt text](https://github.com/dbpedia/healthcare-platform/blob/main/COVID-Mapping.png)
 
 ## Federated Queries for COVID19 Vaccination Statistics
