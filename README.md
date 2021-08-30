@@ -9,9 +9,11 @@ Repository for the GSoC 2021 project 'Update DBpedia SPARQL for Wiki Resources R
 
 ## Contributions to DBpedia by Guang with help from mentor Marvin in DBpedia:
 - Healthcare Research and Datasets Finding: [#Potential Healthcare Datasets]((https://guang-zh.github.io/dbpedia-GSoC2021/)
-- [Datasets deployed to DBpedia databus](https://databus.dbpedia.org/hckg/) (raw for csv files, mappings for sparql queries, input for rdf triples converted by tarql)
-- [DBpedia Ontology mappings](http://mappings.dbpedia.org/index.php/Special:Contributions/Guangzhang) (e.g. vaccination statistics, vaccine, doses, pfizer, moderna, astrazenca, doses)
-- [dbpedia/healthcare-platform github repo: >100 commits](https://github.com/dbpedia/healthcare-platform)
+- [Convert Kaggle CSV files to RDF using Tarql](https://tarql.github.io/)
+- [Release on DBpedia databus as DBpedia extension](https://databus.dbpedia.org/hckg/) (raw for csv files, mappings for sparql queries, input for rdf triples converted by tarql)
+- [Auto updating datasets using Shell Scripts](https://github.com/dbpedia/healthcare-platform/blob/main/databus-upload-update.sh)
+- [Add DBpedia Ontology mappings related to Healthcare and COVID19](http://mappings.dbpedia.org/index.php/Special:Contributions/Guangzhang) (e.g. vaccination statistics, vaccine, doses, pfizer, moderna, astrazenca, doses)
+- [dbpedia/healthcare-platform github repo: >100 commits by Guang](https://github.com/dbpedia/healthcare-platform)
 
 ## COVID Mapping using Tarql (guang-zh) and Datasets uploaded to Databus using maven-databus (Marvin)
 [Diagram on Google Drive for the datasets](https://drive.google.com/file/d/148L6tIGYblEgEZtLZ-LThCvaYY_jla29/view?usp=sharing)
