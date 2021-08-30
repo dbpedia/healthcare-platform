@@ -41,3 +41,9 @@ SELECT DISTINCT ?date ?dose WHERE {
 } ORDER BY DESC(?date)
 ```
 ![alt text](https://github.com/dbpedia/healthcare-platform/blob/main/Scripts/dosesByDateGermany.PNG)
+
+## Tasks to do:
+- Run Federated Queries on DBpedia Live for retrieving COVID19 and Healthcare datasets and information
+- Make the datasets auto-checking datasets versions and auto-updating the DBpedia datasets on Databus
+- Research more healthcare datasets and add them to the DBpedia databus as extension
+- Build healthcare platform for retrieving the healthcare and COVID19 datasets and information
